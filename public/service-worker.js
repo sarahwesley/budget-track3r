@@ -4,7 +4,7 @@ const CACHE_NAME = APP_PREFIX + VERSION;
 const FILES_TO_CACHE = [
     '/',
     '/index.html',
-    'js/db.js',
+    'js/idb.js',
     '/manifest.json',
     '/css/styles.css',
     '/icons/icon-72x72.png',
