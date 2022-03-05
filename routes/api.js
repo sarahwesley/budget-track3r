@@ -31,14 +31,14 @@ router.get("/api/transaction", (req, res) => {
     });
 });
 
-router.delete("/api/transaction", ({body}, res) => {
-  Transaction.find(body)
-    .then(dbTransaction => {
-      res.json(dbTransaction);
-    })
-    .catch(err => {
-      res.status(404).json(err);
-    });
-});
+// router.delete("/api/transaction", ({body}, res) => {
+//   Transaction.find(body)
+//     .then(dbTransaction => {
+//       res.json(dbTransaction);
+//     })
+//     .catch(err => {
+//       res.status(404).json(err);
+//     });
+// });
 
 module.exports = router;
