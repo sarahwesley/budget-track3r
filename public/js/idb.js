@@ -1,6 +1,6 @@
 let db;
 
-const request = indexedDB.open('budget_track3r', 1);
+const request = indexedDB.open('budget-track3r', 1);
 
 request.onupgradeneeded = function(event) {
     const db = event.target.result;
